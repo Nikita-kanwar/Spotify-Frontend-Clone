@@ -22,25 +22,29 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
-import img1 from './img1.jpg'
-import img2 from './img2.jpg'
-import img3 from './img3.jpg'
-import img4 from './img4.jpg'
-import img5 from './img5.jpg'
-import img6 from './img6.jpg'
-import img7 from './img7.jpg'
+import iktara from './iktara.jpeg'
+import ikkomikke from './ikkomikke.jpeg'
+import Bawara from './Bawara.jpeg'
+import Andaz from './Andaz.jpeg'
 import img8 from './img8.jpg'
 import img9 from './img9.jpg'
 import img10 from './img10.jpg'
-import img11 from './img11.jpg'
-import img12 from './img12.jpg'
-import img13 from './img13.jpg'
-import img14 from './img14.jpg'
+import viral from './Viral.jpg'
+import sajda from './sajda.jpeg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
-import song1 from  './song1.mp3'
-import song2 from  './song2.mp3'
-import song3 from  './song3.mp3'
+import Song1 from  './Song1.mp3'
+import Song2 from  './Song2.mp3'
+import Song3 from  './Song3.mp3'
+import Song4 from './Song4.mp3'
+import Song5 from './Song5.mp3'
+import Song6 from './Song6.mp3'
+import Song7 from './Song7.mp3'
+import Song8 from './Song8.mp3'
+import AasPas from './AasPas.jpeg'
+import Aeresakhi from './Aeresakhi.jpeg'
+import Raaton from './Raaton.jpeg' 
+
 
 export const assets = {
     bell_icon,
@@ -100,8 +104,8 @@ export const albumsData = [
     },
     {   
         id:4,
-        name: "Mega Hits,",
-        image: img11,
+        name: "Mega Hits",
+        image: viral,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#234e52"
     },
@@ -117,66 +121,66 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        name: "Iktara",
+        image:iktara,
+        file:Song1,
+        desc:"Kavita Seth",
+        duration:"4:13"
     },
     {
         id:1,
-        name: "Song Two",
-        image: img2,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        name: "Bawra Mann",
+        image: Bawara,
+        file:Song2,
+        desc:"Bawra",
+        duration:"3:16"
     },
     {
         id:2,
-        name: "Song Three",
-        image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        name: "Sajdaa",
+        image: sajda,
+        file:Song3,
+        desc:"Gulam Jugni",
+        duration:"4:46"
     },
     {
         id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        name: "Raaton",
+        image: Raaton,
+        file:Song4,
+        desc:"Aditya Rikhari",
+        duration:"3:20"
     },
     {
         id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+        name: "Ae re Sakhi",
+        image: Aeresakhi,
+        file:Song5,
+        desc:"Namita Choudhary",
+        duration:"3:42"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
+        name: "Aas Pas",
+        image: AasPas    ,
+        file:Song6,
+        desc:"Vishal Shekhar",
+        duration:"5:21"
     },
     {
         id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
+        name: "Andaaz",
+        image: Andaz,
+        file:Song7,
+        desc:"Miel",
+        duration:"3:16"
     },
     {
         id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
+        name: "Ikko Mikke",
+        image: ikkomikke,
+        file:Song8,
+        desc:"Satinder Sartaaj",
+        duration:"6:38"
     }
 ]
